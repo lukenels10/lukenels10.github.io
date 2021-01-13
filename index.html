@@ -247,7 +247,7 @@
                                     </a>
                                     <div class="portfolio-caption">
                                         <div class="portfolio-caption-heading">EM Hit Rate Study</div>
-                                        <div class="portfolio-caption-subheading text-muted">Asset Management</div>
+                                        <div class="portfolio-caption-subheading text-muted">Tableau Dashboard</div>
                                     </div>
                                 </div>
                             </div>
@@ -718,18 +718,44 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">MSCI Emerging Markets Hit Rate Study</h2>
                                     <p class="item-intro text-muted">
-                                        I’ve been passionate about the outdoors for as long as I can remember. Growing up in Colorado, followed by living in Utah for 4.5 years prior to coming to USC for grad school, served as somewhat of an incubator for falling in love with nature - it allowed me to become an avid hiker, climber, and canyoneer. I started rock climbing with my Father and 3 brothers when I was around 9 years old and have been looking for any excuse to get outside to climb ever since. Over the course of my life, I’ve enjoyed visiting a number of the national parks, monuments, and historic sites maintained by the U.S. National Park Service. Rocky Mountain National Park, Zion National Park, Dinosaur National Monument, and Arches National Park are just a few of my favorites. Whenever I plan to visit a National Park/Monument with friends or family, I always like to find out if there is quality rock climbing nearby, to complement a day of visiting the park. I’ve found that it takes a bit of navigating online to find all of the information I need. I will have to navigate to the U.S. National Park Service website to find information about park hours, events, and alerts – this is especially helpful to make sure specific trails or parts of the park aren’t shut down for maintenance or road repair. I will then have to look up the weather forecast to make sure it is worth going to the park. As far as rock climbing is concerned, I will have to navigate to Mountain Project and then struggle my way through locating climbing areas nearby the park I plan to visit. Finally, I will have to use google maps to see if the climbs that look interesting are within a reasonable distance of the park. Now that I’ve provided some context, the aim of this project was to leverage python3 and a number of APIs in conjunction with some webscraping to bring all of the aforementioned data together in just a few simple strokes of the keyboard.  
+                                        <b>Goal:</b> <br>
+                                        The goal of this project was to determine which emerging market countries have historically (over the past 10 years) experienced a higher percentage of companies with 3-year returns greater than the return of the MSCI Emerging Markets benchmark.
+                                        <br><br>
+
+                                        <b>Definitions:</b> <br>
+                                        <em>Hit Rate - </em> The percentage of companies that outperformed the MSCI Emerging Markets benchmark over a 3-year period. <br>
+                                        <em>Winner -</em> A company that outperforms the MSCI Emerging Markets benchmark. <br><br>
+
+                                        <b>Method:</b><br>
+                                        <ol class="list-inline">
+                                            <li>Utilized Bloomberg EQS screen to pull return data for all companies of specific market cap within Emerging Markets countries as defined by MSCI</li>
+                                            <li>Leveraged Tableau for data visualization</li>
+                                        </ol> <br> <br>
+
+                                        <b>Key Takeaways:</b><br>
+                                        <ul class="list-inline">
+                                            <li>China, Taiwan, India, Hong Kong, and Thailand made up 79% of winners over the entire 10 year period. These top 5 countries have also displayed higher average hit rates than our universe’s average</li>
+                                            <li>These top 5 countries have also displayed higher average hit rates than our universe’s average</li>
+                                        </ul> <br> <br>
+
+                                        <b>Possible Actions:</b><br>
+                                        Because 79% of winning companies have come from 5 of the ~25 Emerging Markets countries, there is evidence to support a move toward narrowing the the focus of a portfolio from an asset management standpoint. As time to visit and discover companies is limited, focusing on a select number of countries with higher historic success/opportunity could prove beneficial.
+
+
                                     </p>
-                                    <p class="item-intro text-muted">I utilized python to access 2 APIs and scrape 2 websites in order to provide users with recommendations of top-rated climbing routes within the desired radius of their national park selection. Recommended routes are displayed on a google map with info boxes that provide weather forecasts for the remainder of the week, national park advisories, recommendations for activities to consider in the park, climbing route difficulty/popularity, and links to all sources.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/apps/climb.jpg" alt="" />
+
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em1.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em2.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em3.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em4.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em5.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em6.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/analysis/em7.jpg" alt="" />
+
                                     <p>
-                                        Please find the specific GitHub Repository which includes the README, documentation, and source code for this project 
-                                        <a href="https://github.com/lukenels10/national-parks" target="_blank">here.</a>
+                                        Please feel free to reach out with any questions. 
                                     </p>
-                                    <ul class="list-inline">
-                                        <li>Date: Spring 2020</li>
-                                        <li>Course: Programming for Data Science</li>
-                                    </ul>
+    
                                     <button class="btn btn-primary" data-dismiss="modal" type="button">
                                         <i class="fas fa-times mr-1"></i>
                                         Close Project
